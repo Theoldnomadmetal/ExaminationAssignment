@@ -18,6 +18,11 @@ import retrofit2.Response
 
 class ItemActivity : AppCompatActivity(),ItemListener {
 
+//    Не сделал пагинацию, не проходили. Искал в гугле но так и не понял
+//    С картинками тоже все печально
+
+
+
     private val adapter = RvAdapter(this)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

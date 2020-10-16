@@ -17,4 +17,5 @@
     <string name="you_did_it">Вы успешно купили товар:</string>
     <string name="in_stock">В наличии</string>
     <string name="stat">Статус</string>
+    <string name="ok">OK</string>
 </resources>

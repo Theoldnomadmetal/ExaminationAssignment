@@ -3,9 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingStart="85dp"
-    android:paddingEnd="82dp"
-    android:background="@android:color/white">
+    android:background="@android:color/transparent">
 
 
     <TextView
@@ -46,6 +44,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/btn_shapes"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="@string/ok"
+        android:paddingStart="124dp"
+        android:paddingEnd="122dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvProductDialog"/>
 
